@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SeaSunAdler</title>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="bg-slate-200 dark:bg-gradient-to-b from-[#101729] via-indigo-800 to-[#101729]">
+	<header class="relative">
+		<div class="container">
+			<nav class="flex justify-between items-center py-7">
+				<div class="header-slug flex items-center mb-3">
+					<h2 href="#" class="text-4xl text-lightred">seasunadler</h2>
+				</div>
+				<ul class="flex gap-12 md:hidden">
+					<li><a id="menu-index-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/index.html"
+							class="dark:text-white dark:hover:text-darkred font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Главная</a>
+					</li>
+					<li><a id="menu-booking-int"
+							href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/booking.html"
+							class="dark:text-white dark:hover:text-darkred font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Бронирование</a>
+					</li>
+					<li><a id="menu-small-booking-int"
+							href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/free-date.html"
+							class="dark:text-white dark:hover:text-darkred font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Свободные даты</a>
+					</li>
+					<li><a id="menu-info-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/info.html"
+							class="dark:text-white dark:hover:text-darkred font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Информация</a>
+					</li>
+					<li><a id="menu-contacts-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/contacts.html"
+							class="dark:text-white dark:hover:text-darkred font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Контакты</a>
+					</li>
+				</ul>
+
+				<ul id="menu"
+					class="hidden absolute left-6 right-6 top-24 border border-darkred bg-lightred flex-col items-center">
+					<li><a id="m-menu-index-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/index.html" class="block py-4 text-white hover:text-dark">Главная</a></li>
+					<li><a id="m-menu-booking-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/booking.html" class="block py-4 text-white">Бронирование</a></li>
+					<li><a id="m-menu-small-booking-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/free-date.html" class="block py-4 text-white hover:text-dark">Свободные даты</a></li>
+					<li><a id="m-menu-info-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/info.html" class="block py-4 text-white hover:text-dark">Информация</a></li>
+					<li><a id="m-menu-contacts-int" href="/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/contacts.html" class="block py-4 text-white hover:text-dark">Контакты</a></li>
+				</ul>
+
+				<button class="burger hidden md:block">
+					<span class="burger-line top-line"></span>
+					<span class="burger-line mid-line"></span>
+					<span class="burger-line bottom-line"></span>
+				</button>
+			</nav>
+		</div>
+	</header>
+
+	<main class="h-[800px]">
+		<section id="hero">
+			<div class="container">
+			
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<div class="flex justify-between items-center mt-40 pb-32 lg:flex-col lg:mt-32 lg:pb-26">
+					<div class="flex flex-col w-1/2 lg:w-full">
+						<div class="text-darkred font-bold text-xl tracking-tight">about us</div>
+						<h2 class="dark:text-white mt-[2px] text-4xl font-black lg:text-3xl sm:text-2xl">The team behind the brand.
+						</h2>
+						<p class="dark:text-gray-500 mt-[10px] max-w-sm text-lg lg:max-w-full sm:text-base">With continued donations
+							and local fundraising efforts, the endowment fund will continue to meet the many needs of brain cancer
+							patients. With continued donations and local fundraising efforts, the endowment fund will continue to
+							meet the many needs of brain cancer patients.</p>
+						<a href="#" class="btn max-w-fit sm:max-w-full sm:text-base sm:text-center">Learn More</a>
+					</div>
+					<div class="flex flex-col w-1/2 lg:w-full lg:mt-7">
+						<img class="rounded" src="./img/photo.jpg" alt="about">
+					</div>
+				</div>
+			</div>
+
+
+		</section>
+	</main>
+
+	<footer class="bg-slate-300 dark:bg-[#101729] py-10 md:py-10 h-[100px]">
+		<div class="container">
+			<div class="grid grid-cols-3 gap-3 md:grid-cols-1  justify-items-stretch items-center">
+				<div class="justify-self-full max-w-xs md:max-w-full">
+					<p class="mt-[18px] text-slate-500 text-xl text-center">SeaSunAdler</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- <button id="mode" class="btn fixed right-5 bottom-2 text-sm">mode</button> -->
+	<script src="https://realtycalendar.ru/webpack/application.js?_t=96e16d8bfffff344a38a"></script>
+	<script type="text/javascript">
+		RC_BOOKINGS_WIDGET.init('cd8803779919fb268eb5271e241baba0');
+	</script>
+	<script src="./js/main.js"></script>
+	<script>
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/index.html"
+		)
+			document.getElementById("menu-index-int").style.color = "#bc4e88";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/booking.html"
+		)
+			document.getElementById("menu-booking-int").style.color = "#bc4e88";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/free-date.html"
+		)
+			document.getElementById("menu-small-booking-int").style.color = "#bc4e88";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/info.html"
+		)
+			document.getElementById("menu-info-int").style.color = "#bc4e88";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/contacts.html"
+		)
+			document.getElementById("menu-contacts-int").style.color = "#bc4e88";
+	</script>
+	<script>
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/index.html"
+		)
+			document.getElementById("m-menu-index-int").style.color = "#272727";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/booking.html"
+		)
+			document.getElementById("m-menu-booking-int").style.color = "#272727";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/free-date.html"
+		)
+			document.getElementById("m-menu-small-booking-int").style.color = "#272727";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/info.html"
+		)
+			document.getElementById("m-menu-info-int").style.color = "#272727";
+		if (
+			window.location.pathname ===
+			"/Users/powermacintosh/DevOps/2023/Work/HTML_SeaSunAdler/contacts.html"
+		)
+			document.getElementById("m-menu-contacts-int").style.color = "#272727";
+
+	</script>
+</body>
+
+</html>
